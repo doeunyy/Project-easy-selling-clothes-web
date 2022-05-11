@@ -1,0 +1,113 @@
+html, body {
+    margin :0;
+    padding : 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin : 0;
+    padding : 0;
+}
+
+button {
+    border : none;
+    background-color: transparent;
+}
+
+.header {
+    height : 211px;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width : 1000px;
+    margin : auto;
+}
+
+.header .logo img {
+    width : 100px;
+    margin-left : 100px;
+}
+
+.header .search {
+    width: 300px;
+    height: 50px;
+}
+
+.header .search input {
+    width: 80%;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px black solid;
+}
+
+.header .search button {
+    font-size: 18px;
+    border: none;
+    background-color: lightskyblue;
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header .btn a{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+.hero_header {
+    height: 450px;
+    width: 850px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body h1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 24px;
+    font-style: bold;
+    color: #545454;
+}
+
+
+.products {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 740px;
+    text-align: center;
+}
+
+.products img {
+    width: 225px;
+    height: 225px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.products a {
+    text-decoration: none;
+    color: black;
+    float: left;
+    font-size: 16px;
+}
+
+.price {
+    margin-top: 4px;
+    margin-bottom: 80px;
+}
+
+.clearfix {
+    clear: both;
+}
