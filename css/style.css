@@ -111,3 +111,45 @@ body h1 {
 .clearfix {
     clear: both;
 }
+
+.login-form {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    border: none;
+
+}
+
+.id-field {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0 30px 30px;
+    box-sizing: border-box;
+}
+
+.pw-field {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0 50px 13px;
+    box-sizing: border-box;
+}
+.submit-btn {
+    font-size: 14px;
+    border: none;
+    padding: 15px;
+    width: 400px;
+    background-color: #2594dd;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    font-size: 12px;
+    color: #2655bbb6;
+}
