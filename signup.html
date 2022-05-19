@@ -35,7 +35,7 @@
     <h1>회원가입</h1>
     <hr align="center" style=" black; width: 1000px">
     <div class="login-form">
-        <form>
+        <form method="post" action="afterlogin.html">
             <p>
                 <strong>아이디</strong>
                 <input type="text" name="name" value="이름(실명)을 입력하세요" class="id-field">
@@ -53,9 +53,8 @@
                 <label for="age">만 14세 이상 (필수)</label>
             </div><br>
             
-            <a href="afterlogin.html">
-                <input type="submit" value="회원가입" class="submit-btn">
-            </a>
+            <input type="submit" value="회원가입" class="submit-btn">
+            
             
         </form>
     

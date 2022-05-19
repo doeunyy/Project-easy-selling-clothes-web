@@ -34,7 +34,7 @@
     <h1>로그인</h1>
     <hr align="center" style=" black; width: 1000px">
     <div class="login-form">
-        <form>
+        <form method="post" action="afterlogin.html">
             <p>
                 <strong>아이디</strong>
                 <input type="text" name="name" value="이름(실명)을 입력하세요" class="id-field">
@@ -43,9 +43,9 @@
                 <strong>비밀번호</strong>
                 <input type="password" name="password" value="영문+숫자 조합 8자리 이상 입력하세요" class="pw-field">
             </p>
-            <a href="afterlogin.html">
-                <input type="submit" value="Sign In" class="submit-btn">
-            </a>
+            
+            <input type="submit" value="Sign In" class="submit-btn">
+            
         </form>
     
         <div class="links">
