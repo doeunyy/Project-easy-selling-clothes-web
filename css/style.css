@@ -42,6 +42,7 @@ button {
 
 }
 /**키워드, 로그인, 회원가입 메뉴**/
+
 .menu #keyword{
     position: absolute;
     margin: 64px 0 65px 350px;
@@ -59,108 +60,50 @@ button {
     margin: 64px 0 65px 550px;
     white-space: nowrap;
 }
-
-
-body h1 {
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    font-size: 24px;
-    font-style: bold;
-    color: #545454;
-}
-
-
-.products {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    width: 740px;
+/**최신판매글 텍스트와 언더라인**/
+.title h1{
     text-align: center;
 }
 
-.products img {
-    width: 225px;
-    height: 225px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+hr {
+    margin: auto;
+    width: 900px;
+    
 }
 
-.products a {
-    text-decoration: none;
-    color: black;
-    float: left;
-    font-size: 16px;
-}
-
-.price {
-    margin-top: 4px;
-    margin-bottom: 80px;
-}
-
-.clearfix {
-    clear: both;
-}
-
-.login-form {
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 50px;
-    padding: 20px;
-    text-align: center;
-    border: none;
+/**판매글 올리기**/
+.write {
+    position: relative;
+    width: 800px;
+    margin: auto;
 
 }
-
-.id-field {
-    width: 300px;
-    padding: 12px 20px;
-    margin: 8px 0 30px 30px;
-    box-sizing: border-box;
-}
-
-.pw-field {
-    width: 300px;
-    padding: 12px 20px;
-    margin: 8px 0 50px 13px;
-    box-sizing: border-box;
-}
-.submit-btn {
-    font-size: 14px;
-    border: none;
-    padding: 15px;
-    width: 400px;
-    background-color: #2594dd;
-    margin-bottom: 30px;
-    color: white;
-}
-
-.links {
-    text-align: center;
-}
-
-.links a {
-    font-size: 12px;
-    color: #2655bbb6;
-}
-
-.btn .user {
-    width:32px;
-    height:32px;
-}
-
-li.sell-text {
-    background-color: rgba(0, 225, 255, 0.178);
-    width:800px;
+/**소제목 스타일**/
+.subheading li {
+    position: relative;
+    width: 800px;
     height: 30px;
-    list-style:none;
-    margin:0 auto;    
-}
-
-li.sell-text-short {
-    background-color: rgba(0, 225, 255, 0.178);
-    width: 150px;
-    height: 30px;
+    margin: auto;
     list-style: none;
-    margin: 0 auto;
+    background-color: rgba(0, 225, 255, 0.178);
+}
+
+/**등록 후 다른 옷 추가와 등록 버튼**/
+
+.regisbtn {
+    margin: 30px auto;
+    width: 800px;
+    position: relative;
+}
+
+.regisbtn #1{
+    position: relative;
+    clear: both;
+
+}
+
+.regisbtn #2 {
+    position: relative;
+    clear: both;
+
 }

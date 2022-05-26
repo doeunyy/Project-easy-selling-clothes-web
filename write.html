@@ -26,39 +26,63 @@
     
     </div>
 
-    <h1>판매글 올리기</h1>
-    <hr align="center" style=" black; width: 1000px">
-    
-        <div class="upload-img">
-            <li class="sell-text">📌사진</li>
-
+    <!--(2) 판매글 올리기 텍스트와 언더라인-->
+    <div class="title">
+        <!--"판매글 올리기" 텍스트 삽입-->
+        <h1>판매글 올리기</h1>
+        <!--언더라인-->
+        <hr>
+    </div>
+    <div class="write">
+        <!--(3) 사진 업로드-->
+        <br>
+        <div class="subheading">
+            <li>📌사진</li>
         </div>
         
-        <div class="use">
-            <li class="sell-text">📌사용감</li>
-
+        <!--(4) 사용감 선택-->
+        <br><br>
+        <div class="subheading">
+            <li>📌사용감</li>
         </div>
-        
-        <div class="size">
-            <li class="sell-text">📌사이즈</li>
-
+        <br>
+        <label><input type="checkbox"> 새 것&nbsp&nbsp</label>
+        <label><input type="checkbox"> 1회 사용&nbsp&nbsp</label>
+        <label><input type="checkbox"> 5회 미만 사용&nbsp&nbsp</label>
+        <label><input type="checkbox"> 10회 미만 사용&nbsp&nbsp</label>
+        <label><input type="checkbox"> 10회 이상 사용</label>
+        <!--(5) 사이즈 선택-->
+        <br><br>
+        <div class="subheading">
+            <li>📌사이즈</li>
         </div>
-        
-        <div class="sell-by">
-            <li class="sell-text-short">📌거래 수단</li>
-
+        <br>
+        <label><input type="checkbox"> XS&nbsp&nbsp</label>
+        <label><input type="checkbox"> S&nbsp&nbsp</label>
+        <label><input type="checkbox"> M&nbsp&nbsp</label>
+        <label><input type="checkbox"> L&nbsp&nbsp</label>
+        <label><input type="checkbox"> XL</label>
+        <!--(6) 거래 수단 체크-->
+        <br><br>
+        <div class="subheading">
+            <li>📌거래수단</li>
         </div>
-        
-        <div class="price">
-            <li class="sell-text-short">📌가격</li>
-
+        <br>
+        <label><input type="checkbox"> 직거래&nbsp&nbsp</label>
+        <label><input type="checkbox"> 택배</label>
+        <!--(7) 가격 입력-->
+        <br><br>
+        <div class="subheading">
+            <li>📌가격</li>
         </div>
-    
-    
-
-    <hr align="center" style=" black; width: 1000px">
-    <form action="">
-        <input type="submit" value="등록 후 다른 옷 추가" />
-        <input type="submit" value="등록" />
+        <br>
+        <input type="number">
+    </div>
+    <br>
+    <!--(8) 언더라인과 버튼-->
+    <hr>
+    <form action="" class="regisbtn">
+        <input type="submit" value="등록 후 다른 옷 추가" id="1"/>
+        <input type="submit" value="등록" id="2"/>
     </form>
 </body>
