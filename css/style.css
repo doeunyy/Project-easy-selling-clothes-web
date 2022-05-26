@@ -1,3 +1,4 @@
+/**margin과 padding을 0으로 두는 기본 설정**/
 html, body {
     margin :0;
     padding : 0;
@@ -17,59 +18,48 @@ button {
     background-color: transparent;
 }
 
-.header {
-    height : 211px;
-    display : flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width : 1000px;
-    margin : auto;
-}
+/**메뉴 관련 설정**/
+.menu {
+    position: relative;
+    height: 150px;
+    /**중앙정렬**/
+    margin: auto;
+    width: 50%;
 
-.header .logo img {
-    width : 100px;
-    margin-left : 100px;
 }
-
-.header .search {
-    width: 300px;
-    height: 50px;
+/**로고 삽입**/
+.menu img {
+    padding: 30px;
+    width: 100px;
+    height: 100px;
 }
-
-.header .search input {
-    width: 80%;
-    height: 30px;
-    font-size: 18px;
-    border: none;
-    border-bottom: 1px black solid;
-}
-
-.header .search button {
-    font-size: 18px;
-    border: none;
-    background-color: lightskyblue;
-    width: 50px;
-    height: 30px;
-    border-radius: 15px;
-    color: #fff;
-    cursor: pointer;
-}
-
-.header .btn a{
-    text-decoration: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: black;
-}
-
-.hero_header {
-    height: 450px;
-    width: 850px;
+/**검색**/
+.menu input{
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 300px;
+    margin: 55px 0 55px 0;
+
 }
+/**키워드, 로그인, 회원가입 메뉴**/
+.menu #keyword{
+    position: absolute;
+    margin: 64px 0 65px 350px;
+    white-space: nowrap;
+}
+
+.menu #login {
+    position: absolute;
+    margin: 64px 0 65px 450px;
+    white-space:nowrap;
+}
+
+.menu #signup {
+    position: absolute;
+    margin: 64px 0 65px 550px;
+    white-space: nowrap;
+}
+
 
 body h1 {
     text-align: center;
@@ -159,3 +149,18 @@ body h1 {
     height:32px;
 }
 
+li.sell-text {
+    background-color: rgba(0, 225, 255, 0.178);
+    width:800px;
+    height: 30px;
+    list-style:none;
+    margin:0 auto;    
+}
+
+li.sell-text-short {
+    background-color: rgba(0, 225, 255, 0.178);
+    width: 150px;
+    height: 30px;
+    list-style: none;
+    margin: 0 auto;
+}

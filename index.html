@@ -12,77 +12,30 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="logo">
-            <a href="index.html">
-                <img src="./img/logo.png" alt="시옷">
-            </a>
-        </div>
-        <form action="https://search.naver.com/search.naver">
-            <div class="search">
-                <input type="text" name="query" value="">
-                <button type="submit">검색</button>
-            </div>
-        </form>
-        <div class="btn">
-            <a href="">키워드</a>
-            <a href="signin.html">로그인</a>
-            <a href="signup.html">회원가입</a>
-        </div>
+
+    <!--(1) 메뉴-->
+    <div class="menu">
+        <!--로고 이미지 삽입-->
+        <a href="index.html"><img src="./img/logo.png" alt="시옷"></a>
+        <!--검색 구현-->
+        <input type="search" placeholder="원하는 상품을 검색해보세요">
+        <!--키워드, 로그인, 회원가입 메뉴-->
+        <a href="" id="keyword">키워드</a>
+        <a href="signin.html" id="login">로그인</a>
+        <a href="signup.html" id="signup">회원가입</a>
+
     </div>
-        <!--
-        <img class="hero_header" src="./img/hero_header.jpg">
-        -->
-        <h1>최신 판매글</h1>
-        <hr align="center" style=" black; width: 1000px">
-        <div class="products">
-            <a href="#">
-                <img src="./img/cardigan1.jpg">
-                <p>Cardigan</p>
-                <p class="price">49,000</p>
-            </a>
-            <a href="#">
-                <img src="./img/pants1.jpg">
-                <p>Pants</p>
-                <p class="price">89,000</p>
-            </a>
-            <a href="#">
-                <img src="./img/shirt4.jpg">
-                <p>Shirts</p>
-                <p class="price">69,000</p>
-            </a>
-            <a href="#">
-                <img src="./img/pants2.jpg">
-                <p>Pants</p>
-                <p class="price">79,000</p>
-            </a>
-            <a href="#">
-                <img src="./img/shirt2.jpg">
-                <p>Shirts</p>
-                <p class="price">29,000</p>
-            </a>
-            <a href="#">
-                <img src="./img/pants3.jpg">
-                <p>Pants</p>
-                <p class="price">99,000</p>
-            </a>
-            <a href="#">
-                <img src="./img/shirt3.jpg">
-                <p>Shirts</p>
-                <p class="price">39,000</p>
-            </a>
-            <a href="#">
-                <img src="./img/pants4.jpg">
-                <p>Pants</p>
-                <p class="price">99,000</p>
-            </a>
-            <a href="#">
-                <img src="./img/shirt1.jpg">
-                <p>Shirts</p>
-                <p class="price">79,000</p>
-            </a>
-            <div class="clearfix"></div>
-        </div>
+
+    <!--(2) 최신판매글 텍스트와 언더라인-->
+    <div class="clthls">  
+        <!--"최신 판매글" 텍스트 삽입-->
+        <h4>최신 판매글</h4>
+        <!--언더라인-->
+        <hr>
+    </div>
+
+    <!--(3) 판매물품 목록-->
+        <div class="products"></div>
 
 </body>
 </html>
