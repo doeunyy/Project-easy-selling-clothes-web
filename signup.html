@@ -13,24 +13,19 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="logo">
-            <a href="index.html">
-                <img src="./img/logo.png" alt="시옷">
-            </a>
-        </div>
-        <form action="https://search.naver.com/search.naver">
-            <div class="search">
-                <input type="text" name="query" value="">
-                <button type="submit">검색</button>
-            </div>
-        </form>
-        <div class="btn">
-            <a href="">키워드</a>
-            <a href="signin.html">로그인</a>
-            <a href="signup.html">회원가입</a>
-        </div>
+    <!--(1) 메뉴-->
+    <div class="menu">
+        <!--로고 이미지 삽입-->
+        <a href="index.html"><img src="./img/logo.png" alt="시옷"></a>
+        <!--검색 구현-->
+        <input type="search" placeholder="원하는 상품을 검색해보세요">
+        <!--키워드, 로그인, 회원가입 메뉴-->
+        <a href="" id="keyword">키워드</a>
+        <a href="signin.html" id="login">로그인</a>
+        <a href="signup.html" id="signup">회원가입</a>
+    
     </div>
+
 
     <h1>회원가입</h1>
     <hr align="center" style=" black; width: 1000px">
