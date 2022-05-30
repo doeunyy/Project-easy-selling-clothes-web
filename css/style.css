@@ -72,7 +72,7 @@ hr {
 }
 
 /**판매글 올리기**/
-.write, .login-form {
+.write, .parent_box_sign {
     position: relative;
     width: 800px;
     margin: auto;
@@ -108,7 +108,8 @@ hr {
 
 }
 
-.login-form {
+/**로그인과 회원가입 부모박스 중앙정렬 설정**/
+.parent_box_sign {
     text-align: center;
 }
 
