@@ -1,1 +1,8 @@
-# project-easy-selling-clothes-web
+##주제
+중고 옷 판매 웹사이트 만들기
+
+##기술 스택
+
+
+##프로젝트 일정
+
