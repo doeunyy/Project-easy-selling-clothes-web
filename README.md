@@ -3,7 +3,7 @@
 
 
 ## 기술 스택
-Spring, python(tensorflow), 
+Spring, python(tensorflow), html, css
 
 
 ## 프로젝트 일정
