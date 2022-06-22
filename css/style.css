@@ -61,6 +61,11 @@ button {
     white-space: nowrap;
 }
 
+.title {
+    margin:auto;
+    width: 900px;
+}
+
 /**최신판매글 텍스트와 언더라인**/
 .title h1{
     text-align: center;
