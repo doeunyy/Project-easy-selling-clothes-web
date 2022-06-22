@@ -49,17 +49,18 @@ button {
     white-space: nowrap;
 }
 
-.menu #login {
+.menu #login, #user {
     position: absolute;
     margin: 64px 0 65px 450px;
     white-space:nowrap;
 }
 
-.menu #signup {
+.menu #signup,#write {
     position: absolute;
     margin: 64px 0 65px 550px;
     white-space: nowrap;
 }
+
 /**최신판매글 텍스트와 언더라인**/
 .title h1{
     text-align: center;
@@ -112,6 +113,17 @@ hr {
 .parent_box_sign {
     text-align: center;
 }
+
+.products {
+    margin: auto;
+    width: 900px;
+    padding:30px;
+}
+
+.products a {
+    float:left;
+}
+
 
 
 
